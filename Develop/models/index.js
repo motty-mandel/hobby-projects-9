@@ -17,22 +17,22 @@ Category.hasMany(Product, {
 });
 
 // Products belongToMany Tags (through ProductTag)
-// Product.belongsToMany(Tag, {
-//   through: {
-//     model: ProductTag,
-//     unique: false,
-//   },
-//   as: 'product_tag'
-// });
+Product.belongsToMany(Tag, {
+  through: {
+    model: ProductTag,
+    unique: false,
+  },
+  as: 'product_tags'
+});
 
 // Tags belongToMany Products (through ProductTag)
-// Tag.belongToMany(Product, {
-//   through: {
-//     model: ProductTag,
-//     unique: false,
-//   },
-//   as: 'tagged_product'
-// });
+Tag.belongsToMany(Product, {
+  through: {
+    model: ProductTag,
+    unique: false,
+  },
+  as: 'tagged_products'
+});
 
 module.exports = {
   Product,
