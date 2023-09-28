@@ -22,7 +22,9 @@ Don't forget to create a .env file.
 ## Description
 This is an e-commerce site that allows you to retrieve all of the products that are stored on the database, 
 create new products delete and update them.
-
+It is not completely up and running yet, when it is I will link
+a tutorial video showing how to navigate the application.
+Thanks for your patience.
 
 ## Usage
 Use 
