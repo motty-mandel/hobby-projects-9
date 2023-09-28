@@ -20,6 +20,8 @@ source seeds.sql
 Don't forget to create a .env file.
 
 ## Description
+This is an e-commerce site that allows you to retrieve all of the products that are stored on the database, 
+create new products delete and update them.
 
 
 ## Usage
@@ -27,7 +29,9 @@ Use
 ```bash
 npm start
 ```
-to start the server and go from there.
+and then using Insomnia you can make get, put, create and delete requests
+on your local server.
+
 
 ## Credits
 Help and source code came from the Rutgers bootcamp TA's.
